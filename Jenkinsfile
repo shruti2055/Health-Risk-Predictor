@@ -31,7 +31,7 @@ pipeline {
                 sh """
                     docker run -d \\
                         --name "${env.CONTAINER_NAME}" \\
-                        -p 7787:80 \\
+                        -p 7787:7792 \\
                         -e NODE_ENV=production \\
                         --restart unless-stopped \\
                         "${env.IMAGE_NAME}"
