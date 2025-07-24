@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'fm-platform'
-        CONTAINER_NAME = 'fm-platform'
+        IMAGE_NAME = 'fm-healthrisk'
+        CONTAINER_NAME = 'fm-healthrisk'
     }
 
     stages {
